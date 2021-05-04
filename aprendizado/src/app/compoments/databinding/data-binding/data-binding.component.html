@@ -1,0 +1,19 @@
+<section class="tow-way-binding">
+    <article>
+        <h3> Two way data binding</h3>
+        <label >binding</label>
+        <div>
+            <input type="text" [value]="nome" />
+        </div>
+        <label >ngModel e ngModelChange</label>
+        <div>
+            <input type="text" [ngModel]="nome" (ngModelChange)="nome = $event" />
+        </div>
+
+        <label >two way data binding</label>
+        <div>
+            <input type="text" [(ngModel)]="nome" />
+        </div>
+        <p>Você digitou : {{ nome }}</p>
+    </article>
+</section>
