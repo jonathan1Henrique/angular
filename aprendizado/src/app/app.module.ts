@@ -4,14 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DataBindingComponent } from './compoments/databinding/data-binding/data-binding.component';
-import { InputPropertyComponent } from './compoments/input-property/input-property.component';
+import { InputPropertyComponent } from './components/input-property/input-property.component';
+import { DataBindingComponent } from './components/databinding/data-binding/data-binding.component';
+import { OutputPropertyComponent } from './components/output-property/output-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
-    InputPropertyComponent
+    InputPropertyComponent,
+    OutputPropertyComponent
   ],
   imports: [
     BrowserModule,
