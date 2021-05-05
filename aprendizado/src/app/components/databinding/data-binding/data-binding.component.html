@@ -18,4 +18,8 @@
     </article> -->
 
     <app-input-property [nome]="nomeDoCurso"></app-input-property>
+
+    <contador [valor]="valorInicial" 
+        (mudouValor)="onMudouValor($event)"
+    ></contador>
 </section>
