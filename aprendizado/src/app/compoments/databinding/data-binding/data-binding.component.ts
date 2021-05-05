@@ -9,7 +9,9 @@ export class DataBindingComponent implements OnInit {
 
   constructor() { }
 
-  nome:string = 'teste aqui ';
+  // nome: string = 'teste aqui ';
+
+  nomeDoCurso: string = 'Angular'
 
   ngOnInit(): void {
   }
