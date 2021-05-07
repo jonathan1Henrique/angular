@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SwitchCaseComponent
   ],
   imports: [
     BrowserModule,
