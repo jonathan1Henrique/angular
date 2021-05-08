@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 import { NgClassDirectiveComponent } from './components/ng-class-directive/ng-class-directive.component';
+import { NgStyleDirectiveComponent } from './components/ng-style-directive/ng-style-directive.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     SwitchCaseComponent,
-    NgClassDirectiveComponent
+    NgClassDirectiveComponent,
+    NgStyleDirectiveComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
