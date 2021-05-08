@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
+import { NgClassDirectiveComponent } from './components/ng-class-directive/ng-class-directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SwitchCaseComponent
+    SwitchCaseComponent,
+    NgClassDirectiveComponent
   ],
   imports: [
     BrowserModule,
