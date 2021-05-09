@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { NgContentDirectiveComponent } from './components/ng-content-directive/ng-content-directive.component';
 import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 import { DiretivasCustomizadasComponent } from './components/diretivas-customizadas/diretivas-customizadas.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DiretivasCustomizadasComponent } from './components/diretivas-customiza
     NgStyleDirectiveComponent,
     NgContentDirectiveComponent,
     FundoAmareloDirective,
-    DiretivasCustomizadasComponent
+    DiretivasCustomizadasComponent,
+    HighlightMouseDirective
   ],
   imports: [
     BrowserModule,
