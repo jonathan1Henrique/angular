@@ -8,6 +8,8 @@ import { NgClassDirectiveComponent } from './components/ng-class-directive/ng-cl
 import { NgStyleDirectiveComponent } from './components/ng-style-directive/ng-style-directive.component';
 import { FormsModule } from '@angular/forms';
 import { NgContentDirectiveComponent } from './components/ng-content-directive/ng-content-directive.component';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
+import { DiretivasCustomizadasComponent } from './components/diretivas-customizadas/diretivas-customizadas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NgContentDirectiveComponent } from './components/ng-content-directive/n
     SwitchCaseComponent,
     NgClassDirectiveComponent,
     NgStyleDirectiveComponent,
-    NgContentDirectiveComponent
+    NgContentDirectiveComponent,
+    FundoAmareloDirective,
+    DiretivasCustomizadasComponent
   ],
   imports: [
     BrowserModule,
