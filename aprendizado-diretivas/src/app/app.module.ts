@@ -7,13 +7,15 @@ import { SwitchCaseComponent } from './components/switch-case/switch-case.compon
 import { NgClassDirectiveComponent } from './components/ng-class-directive/ng-class-directive.component';
 import { NgStyleDirectiveComponent } from './components/ng-style-directive/ng-style-directive.component';
 import { FormsModule } from '@angular/forms';
+import { NgContentDirectiveComponent } from './components/ng-content-directive/ng-content-directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SwitchCaseComponent,
     NgClassDirectiveComponent,
-    NgStyleDirectiveComponent
+    NgStyleDirectiveComponent,
+    NgContentDirectiveComponent
   ],
   imports: [
     BrowserModule,
