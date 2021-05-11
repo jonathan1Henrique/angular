@@ -4,9 +4,8 @@ import { Directive, HostListener, ElementRef, Renderer2, HostBinding } from '@an
   selector: '[highlightMouse]'
 })
 export class HighlightMouseDirective {
-  private backgroundColor : string;
-  
-  @HostListener('mouseenter') onMouseOver(){
+
+  @HostListener('mouseenter') onMouseOver() {
     // this._renderer.setStyle(
     //   this._elementeRef.nativeElement, 
     //   'background-color',
@@ -15,7 +14,7 @@ export class HighlightMouseDirective {
     this.backgroundColor = 'yellow'
   }
 
-  @HostListener('mouseleave') onMouseLeave(){
+  @HostListener('mouseleave') onMouseLeave() {
     // this._renderer.setStyle(
     //   this._elementeRef.nativeElement, 
     //   'background-color',
@@ -23,11 +22,12 @@ export class HighlightMouseDirective {
     // )
     this.backgroundColor = 'white'
   }
-  // @HostBinding('style.backgroundColor') backgroundColor : string;
-
-  @HostBinding('style.backgroundColor') get setColor(){
-    return this.backgroundColor;
-  }
+  @HostBinding('style.backgroundColor') backgroundColor: string;
+  
+  // private backgroundColor : string;
+  // @HostBinding('style.backgroundColor') get setColor(){
+  //   return this.backgroundColor;
+  // }
 
   constructor(/*private _elementeRef : ElementRef, private _renderer: Renderer2*/) { }
 
